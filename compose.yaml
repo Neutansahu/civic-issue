@@ -1,0 +1,6 @@
+services:
+  civicissuereporter:
+    image: civicissuereporter
+    build:
+      context: .
+      dockerfile: ./Dockerfile
